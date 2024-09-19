@@ -21,7 +21,7 @@ package main
 
 // Server and server-adjacent commands
 import (
-	_ "github.com/sassoftware/relic/v8/cmdline/auditor"
-	_ "github.com/sassoftware/relic/v8/cmdline/servecmd"
-	_ "github.com/sassoftware/relic/v8/cmdline/workercmd"
+	_ "github.com/mind-security/relic/v8/cmdline/auditor"
+	_ "github.com/mind-security/relic/v8/cmdline/servecmd"
+	_ "github.com/mind-security/relic/v8/cmdline/workercmd"
 )

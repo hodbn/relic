@@ -1,6 +1,4 @@
-module github.com/hodbn/relic/v8
-
-replace github.com/sassoftware/relic/v8 => github.com/hodbn/relic/v8 v8.0.0-20240901171733-76ab24e6cf50
+module github.com/mind-security/relic/v8
 
 go 1.21
 
@@ -34,7 +32,6 @@ require (
 	github.com/prometheus/client_golang v1.19.0
 	github.com/rs/zerolog v1.32.0
 	github.com/sassoftware/go-rpmutils v0.4.0
-	github.com/sassoftware/relic/v8 v8.0.0-00010101000000-000000000000
 	github.com/spf13/cobra v1.8.0
 	github.com/spf13/pflag v1.0.5
 	github.com/streadway/amqp v1.1.0
